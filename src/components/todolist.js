@@ -37,7 +37,9 @@ function TodoList() {
           border: "3px solid #ccc",
         }}
       />
-      <button onClick={addTask}>Add Task</button>
+      <button onClick={addTask} style={{ color: "brown" }}>
+        Add Task
+      </button>
       <ul>
         {todos.map((task, index) => (
           <li
